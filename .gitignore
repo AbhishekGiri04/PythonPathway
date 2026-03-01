@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# FastAPI
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite3
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.packages
+.pub/
+build/
+
+# Docker
+*.log
+
+# Redis
+dump.rdb
+
+# Misc
+*.zip
+node_modules/
