@@ -36,7 +36,7 @@
 
 **Real-world applications:**
 
-- 🤖 **AI & Machine Learning** — TensorFlow, PyTorch, Scikit-learn
+- 🧠 **AI & Machine Learning** — TensorFlow, PyTorch, Scikit-learn
 - 🌐 **Web Development** — Django, Flask, FastAPI
 - 📊 **Data Science** — Pandas, NumPy, Matplotlib
 - ⚙️ **Automation & Scripting** — task automation, web scraping, DevOps
@@ -150,18 +150,6 @@
 PythonPathway/
 ├── assets/
 │   └── Python.png
-├── src/
-│   ├── basics/
-│   ├── control-flow/
-│   ├── functions/
-│   ├── data-structures/
-│   ├── strings/
-│   ├── file-handling/
-│   ├── oop/
-│   ├── modules/
-│   ├── exceptions/
-│   ├── libraries/
-│   └── projects/
 ├── LICENSE
 └── README.md
 ```
@@ -560,12 +548,12 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 </div>
 
 ---
-
 <div align="center">
 
 ## 📄 License
 
 This project is licensed under the **MIT License** — free to use, share, and modify.
+
 See the [LICENSE](LICENSE) file for full details.
 
 </div>
