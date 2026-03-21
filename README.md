@@ -212,7 +212,7 @@ PythonPathway/
 <table>
   <tr>
     <td align="center" width="33%">
-      <b>✍️ Simple Syntax</b><br/><br/>
+      <b>✍🏻 Simple Syntax</b><br/><br/>
       Reads like English. Write less, do more. No semicolons, no braces — just clean logic.
     </td>
     <td align="center" width="33%">
@@ -293,7 +293,7 @@ PythonPathway/
       Clean, transform, and visualize data with Pandas and Matplotlib.
     </td>
     <td align="center" width="25%">
-      <b>🤖 AI / ML Projects</b><br/><br/>
+      <b>🧠 AI / ML Projects</b><br/><br/>
       Build models that predict, classify, and generate — from scratch.
     </td>
   </tr>
