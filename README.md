@@ -150,6 +150,7 @@
 PythonPathway/
 ├── assets/
 │   └── Python.png
+├── .gitignore
 ├── LICENSE
 └── README.md
 ```
