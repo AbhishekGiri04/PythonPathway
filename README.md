@@ -534,7 +534,7 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 
 **👤 Abhishek Giri** — Author & Maintainer
 
-<a href="https://linkedin.com/in/abhishek-giri04">
+<a href="https://linkedin.com/in/abhishekgiri04">
   <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 &nbsp;
