@@ -554,8 +554,7 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 ## 📄 License
 
 This project is licensed under the **MIT License** — free to use, share, and modify.
-
-See the [LICENSE](LICENSE) file for full details.
+See the [LICENSE](LICENSE) file for full details. &nbsp;|&nbsp; Copyright © 2026 [Abhishek Giri](https://github.com/abhishekgiri04)
 
 </div>
 
