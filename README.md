@@ -150,12 +150,47 @@
 PythonPathway/
 ├── assets/
 │   └── Python.png
+├── Chapter_01/                  ← Intro, Comments, Modules
+│   ├── 01_one.py                   Hello World & Comments
+│   ├── 02_maths.py                 User-defined Module (functions)
+│   └── 03_main.py                  Importing Modules (built-in, custom, external)
+├── Chapter_02/                  ← Variables, Operators & Data Types
+│   ├── 01_varibles.py              Variables & data types
+│   ├── 02_rules.py                 Naming rules & conventions
+│   ├── 03_operators.py             Arithmetic, assignment, comparison, logical
+│   ├── 04_type.py                  type() function
+│   ├── 05_typecasting.py           int(), float(), str() conversions
+│   └── 06_input.py                 input() & user interaction
+├── Chapter_03/                  ← Strings
+│   ├── 01_strings.py               String literals & types
+│   ├── 02_slicing.py               Positive, negative & step slicing
+│   ├── 03_functions.py             String methods (len, find, replace…)
+│   └── 04_escape.py                Escape sequences (\n, \t, \\, \')
+├── Practice_01/                 ← Practice: Basics & Modules
+│   ├── P1.py                       Multi-line print (poem)
+│   ├── P2.py                       Text-to-Speech using pyttsx3
+│   └── P3.py                       List directory using os module
+├── Practice_02/                 ← Practice: Variables & Operators
+│   ├── P1.py                       Basic arithmetic
+│   ├── P2.py
+│   ├── P3.py
+│   ├── P4.py
+│   ├── P5.py
+│   └── P6.py                       Input & exponentiation
+├── Practice_03/                 ← Practice: Strings
+│   ├── P1.py                       input() + f-string greeting
+│   ├── P2.py
+│   ├── P3.py
+│   ├── P4.py
+│   └── P5.py                       Escape sequences in print
+├── docs/
+│   └── Python_Handbook.pdf
 ├── .gitignore
 ├── LICENSE
 └── README.md
 ```
 
-> 📁 Source folders will be added progressively as each module is completed — following the roadmap above.
+> 📁 Chapters and Practice sets are added progressively as each module is completed — following the roadmap above.
 
 ---
 
