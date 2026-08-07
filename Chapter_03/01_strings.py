@@ -1,0 +1,23 @@
+a="Abhishek"
+b='Abhishek'
+c="""Abhishek"""
+d='''Abhishek'''
+
+print(a)
+print(b)
+print(c)
+print(d)
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+# Abhishek
+# Abhishek
+# Abhishek
+# Abhishek
+# <class 'str'>
+# <class 'str'>
+# <class 'str'>
+# <class 'str'>
