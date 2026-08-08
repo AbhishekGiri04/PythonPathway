@@ -1,34 +1,63 @@
-# Python
+# ─── Python ───────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.pyw
 
-# Virtual Environment
+# ─── Virtual Environment ──────────────────────────────────
 venv/
 .venv/
 env/
 .env
+ENV/
 
-# Distribution / Packaging
+# ─── Environment Variables ────────────────────────────────
+.env
+.env.*
+*.env
+
+# ─── Distribution / Packaging ────────────────────────────
 dist/
 build/
 *.egg-info/
 *.egg
+*.whl
+MANIFEST
 
-# Jupyter Notebooks
+# ─── Testing ──────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# ─── Jupyter Notebooks ────────────────────────────────────
 .ipynb_checkpoints/
+*.ipynb
 
-# IDE
+# ─── Type Checking ────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+.pytype/
+
+# ─── IDE ──────────────────────────────────────────────────
 .vscode/
 .idea/
 *.code-workspace
+*.sublime-project
+*.sublime-workspace
 
-# OS
+# ─── OS ───────────────────────────────────────────────────
 .DS_Store
+.DS_Store?
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Logs & Misc
+# ─── Logs & Misc ──────────────────────────────────────────
 *.log
 *.tmp
 *.cache
+*.bak
+*.swp
+*.swo
