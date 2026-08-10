@@ -90,52 +90,57 @@
     <td align="center">✅ Completed</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/03-Control%20Flow-f59e0b?style=flat-square"/></td>
-    <td><b>if / elif / else, match-case, ternary expressions</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/03-Data%20Structures%20I-10b981?style=flat-square"/></td>
+    <td><b>Lists & Tuples — indexing, slicing, methods, immutability</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/04-Data%20Structures%20II-10b981?style=flat-square"/></td>
+    <td><b>Dictionaries & Sets — CRUD, methods, union, intersection</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/05-Control%20Flow-10b981?style=flat-square"/></td>
+    <td><b>if / elif / else, comparison & logical operators in conditions</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/06-Loops-10b981?style=flat-square"/></td>
+    <td><b>while, for, range(), break, for-else, Quiz program</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/07-Functions-f59e0b?style=flat-square"/></td>
+    <td><b>def, args/kwargs, lambda, scope, recursion, decorators</b></td>
     <td align="center">🔜 Up Next</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/04-Loops-f59e0b?style=flat-square"/></td>
-    <td><b>for, while, break, continue, pass, comprehensions</b></td>
-    <td align="center">🔜 Coming Soon</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/05-Functions-f59e0b?style=flat-square"/></td>
-    <td><b>def, args/kwargs, lambda, scope, recursion, decorators</b></td>
-    <td align="center">🔜 Coming Soon</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/06-Data%20Structures-f59e0b?style=flat-square"/></td>
-    <td><b>List, Tuple, Set, Dictionary — operations & methods</b></td>
-    <td align="center">🔜 Coming Soon</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/07-File%20Handling-f59e0b?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/08-File%20Handling-f59e0b?style=flat-square"/></td>
     <td><b>open, read, write, with statement, CSV, JSON</b></td>
     <td align="center">🔜 Coming Soon</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/08-OOP-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/09-OOP-ef4444?style=flat-square"/></td>
     <td><b>Classes, objects, inheritance, polymorphism, dunder methods</b></td>
     <td align="center">🔴 Critical</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/09-Modules%20%26%20Packages-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/10-Modules%20%26%20Packages-ef4444?style=flat-square"/></td>
     <td><b>import, pip, virtual environments, custom modules</b></td>
     <td align="center">🔴 Ecosystem</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/10-Exception%20Handling-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/11-Exception%20Handling-ef4444?style=flat-square"/></td>
     <td><b>try/except/finally, custom exceptions, error types</b></td>
     <td align="center">🔴 Robustness</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/11-Libraries-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/12-Libraries-ef4444?style=flat-square"/></td>
     <td><b>NumPy, Pandas, Matplotlib, Requests, OS, datetime</b></td>
     <td align="center">🔴 Power Tools</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/12-Web%20%2F%20AI%20%2F%20Automation-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/13-Web%20%2F%20AI%20%2F%20Automation-ef4444?style=flat-square"/></td>
     <td><b>Flask/Django basics, Scikit-learn, Selenium, APIs</b></td>
     <td align="center">🔴 Mastery</td>
   </tr>
@@ -166,6 +171,27 @@ PythonPathway/
 │   ├── 02_slicing.py               Positive, negative & step slicing
 │   ├── 03_functions.py             String methods — len, find, replace, capitalize, count
 │   └── 04_escape.py                Escape sequences — \n, \t, \\, \'
+├── Practice_04/                 ← Practice: Data Structures I
+│   ├── P1.py                       Build a fruit list using loop & append
+│   ├── P2.py                       Input marks, sort & display list
+│   ├── P3.py                       list() & tuple() type conversion
+│   ├── P4.py                       sum() on a list
+│   └── P5.py                       tuple.count() — count zeros
+├── Practice_05/                 ← Practice: Data Structures II
+│   ├── P1.py                       Hindi-English dictionary lookup with get()
+│   ├── P2.py                       Build a set from user input (deduplication)
+│   ├── P3.py                       Set with int & str — type distinction
+│   ├── P4.py                       Set deduplication — int vs float vs str
+│   ├── P5.py                       {} creates dict, not set — type trap
+│   └── P6.py                       Build name→language dict from user input
+├── Practice_06/                 ← Practice: Control Flow
+│   ├── P1.py                       Find greatest of 4 numbers using if/elif
+│   ├── P2.py                       Pass/Fail checker with percentage & per-subject logic
+│   ├── P3.py                       Spam comment detector using `in` operator
+│   ├── P4.py                       Username length validator
+│   ├── P5.py                       Name lookup in a list using `in`
+│   ├── P6.py                       Grade calculator with elif chain
+│   └── P7.py                       Keyword presence checker in a post
 ├── Practice_01/                 ← Practice: Basics & Modules
 │   ├── P1.py                       Multi-line print — poem using triple quotes
 │   ├── P2.py                       Text-to-Speech using pyttsx3
@@ -215,6 +241,24 @@ PythonPathway/
 - ✅ String methods — `len`, `find`, `replace`, `capitalize`, `count`, `endswith`
 - ✅ Escape sequences — `\n`, `\t`, `\\`, `\'`
 - ✅ f-strings & string formatting
+
+**Data Structures**
+- ✅ Lists — indexing, slicing, `sort`, `reverse`, `append`, `insert`, `pop`, `remove`
+- ✅ Tuples — creation, `count()`, `index()`, immutability, `list()` ↔ `tuple()` conversion
+- ✅ Dictionaries — creation, access, `items()`, `keys()`, `update()`, `get()`
+- ✅ Sets — `add`, `remove`, `pop`, `clear`, `union`, `intersection`, type traps
+
+**Control Flow**
+- ✅ if / elif / else
+- ✅ Nested conditions with `and` / `or`
+- ✅ `in` operator for membership checks
+
+**Loops**
+- ✅ while loop with counter
+- ✅ for loop — iterating lists
+- ✅ `range()` — start, stop, step
+- ✅ `break` statement
+- ✅ for-else construct
 
     </td>
     <td width="50%" valign="top">
@@ -463,15 +507,27 @@ python3 hello_world.py
 - [x] Escape sequences — \n, \t, \\, \'
 - [x] f-strings & string formatting
 
-**🔀 Control Flow** *(Up Next)*
-- [ ] if / elif / else
+**🗂️ Data Structures I** ✅
+- [x] Lists — indexing, slicing, sort, append, insert, pop, remove
+- [x] Tuples — count(), index(), immutability, type conversion
+
+**🗂️ Data Structures II** ✅
+- [x] Dictionaries — creation, access, items/keys/update/get
+- [x] Sets — add, remove, pop, clear, union, intersection
+
+**🔀 Control Flow** ✅
+- [x] if / elif / else
+- [x] Nested conditions with and / or
+- [x] `in` operator for membership checks
 - [ ] match-case (Python 3.10+)
 - [ ] Ternary expressions
 
-**🔁 Loops**
-- [ ] for loop & range()
-- [ ] while loop
-- [ ] break, continue, pass
+**🔁 Loops** ✅
+- [x] while loop
+- [x] for loop & range()
+- [x] break statement
+- [x] for-else construct
+- [ ] continue, pass
 - [ ] List / Dict / Set comprehensions
 
 **🧩 Functions**
@@ -489,11 +545,10 @@ python3 hello_world.py
     </td>
     <td valign="top" width="50%">
 
-**🗂️ Data Structures**
-- [ ] Lists — methods & slicing
-- [ ] Tuples — immutability & unpacking
-- [ ] Sets — operations & uniqueness
-- [ ] Dictionaries — CRUD & nesting
+**🗂️ Data Structures** *(Advanced)*
+- [ ] List unpacking & comprehensions
+- [ ] Tuple unpacking
+- [ ] Dictionary nesting & comprehensions
 - [ ] Stack & Queue using collections
 
 **🔴 OOP**
