@@ -82,37 +82,37 @@
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/01-Basics-10b981?style=flat-square"/></td>
     <td><b>Syntax, Variables, Data Types, I/O, Operators</b></td>
-    <td align="center">🟢 Start Here</td>
+    <td align="center">✅ Completed</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/02-Control%20Flow-10b981?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/02-Strings-10b981?style=flat-square"/></td>
+    <td><b>Literals, slicing, methods, escape sequences, f-strings</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/03-Control%20Flow-f59e0b?style=flat-square"/></td>
     <td><b>if / elif / else, match-case, ternary expressions</b></td>
-    <td align="center">🟢 Core Logic</td>
+    <td align="center">🔜 Up Next</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/03-Loops-10b981?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/04-Loops-f59e0b?style=flat-square"/></td>
     <td><b>for, while, break, continue, pass, comprehensions</b></td>
-    <td align="center">🟢 Iteration</td>
+    <td align="center">🔜 Coming Soon</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/04-Functions-f59e0b?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/05-Functions-f59e0b?style=flat-square"/></td>
     <td><b>def, args/kwargs, lambda, scope, recursion, decorators</b></td>
-    <td align="center">🟡 Modular Code</td>
+    <td align="center">🔜 Coming Soon</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/05-Data%20Structures-f59e0b?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/06-Data%20Structures-f59e0b?style=flat-square"/></td>
     <td><b>List, Tuple, Set, Dictionary — operations & methods</b></td>
-    <td align="center">🟡 Data Handling</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/06-Strings-f59e0b?style=flat-square"/></td>
-    <td><b>Slicing, formatting, f-strings, regex, string methods</b></td>
-    <td align="center">🟡 Text Processing</td>
+    <td align="center">🔜 Coming Soon</td>
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/07-File%20Handling-f59e0b?style=flat-square"/></td>
     <td><b>open, read, write, with statement, CSV, JSON</b></td>
-    <td align="center">🟡 Persistence</td>
+    <td align="center">🔜 Coming Soon</td>
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/08-OOP-ef4444?style=flat-square"/></td>
@@ -151,40 +151,41 @@ PythonPathway/
 ├── assets/
 │   └── Python.png
 ├── Chapter_01/                  ← Intro, Comments, Modules
-│   ├── 01_one.py                   Hello World & Comments
-│   ├── 02_maths.py                 User-defined Module (functions)
-│   └── 03_main.py                  Importing Modules (built-in, custom, external)
+│   ├── 01_one.py                   Hello World & single/multi-line comments
+│   ├── 02_maths.py                 User-defined module (add, subtract, multiply)
+│   └── 03_main.py                  Importing built-in, custom & external modules
 ├── Chapter_02/                  ← Variables, Operators & Data Types
-│   ├── 01_varibles.py              Variables & data types
+│   ├── 01_varibles.py              Variables & data types (int, float, str, bool, None)
 │   ├── 02_rules.py                 Naming rules & conventions
-│   ├── 03_operators.py             Arithmetic, assignment, comparison, logical
-│   ├── 04_type.py                  type() function
-│   ├── 05_typecasting.py           int(), float(), str() conversions
+│   ├── 03_operators.py             Arithmetic, assignment, comparison, logical operators
+│   ├── 04_type.py                  type() function — checking data types
+│   ├── 05_typecasting.py           int(), float(), str() type conversions
 │   └── 06_input.py                 input() & user interaction
 ├── Chapter_03/                  ← Strings
-│   ├── 01_strings.py               String literals & types
+│   ├── 01_strings.py               String literals — single, double, triple quotes
 │   ├── 02_slicing.py               Positive, negative & step slicing
-│   ├── 03_functions.py             String methods (len, find, replace…)
-│   └── 04_escape.py                Escape sequences (\n, \t, \\, \')
+│   ├── 03_functions.py             String methods — len, find, replace, capitalize, count
+│   └── 04_escape.py                Escape sequences — \n, \t, \\, \'
 ├── Practice_01/                 ← Practice: Basics & Modules
-│   ├── P1.py                       Multi-line print (poem)
+│   ├── P1.py                       Multi-line print — poem using triple quotes
 │   ├── P2.py                       Text-to-Speech using pyttsx3
-│   └── P3.py                       List directory using os module
+│   └── P3.py                       List directory contents using os module
 ├── Practice_02/                 ← Practice: Variables & Operators
-│   ├── P1.py                       Basic arithmetic
-│   ├── P2.py
-│   ├── P3.py
-│   ├── P4.py
-│   ├── P5.py
-│   └── P6.py                       Input & exponentiation
+│   ├── P1.py                       Basic arithmetic (addition)
+│   ├── P2.py                       Modulo operator
+│   ├── P3.py                       input() & type checking
+│   ├── P4.py                       Comparison operator (>)
+│   ├── P5.py                       Average of two numbers via input
+│   └── P6.py                       Input & exponentiation (**)
 ├── Practice_03/                 ← Practice: Strings
 │   ├── P1.py                       input() + f-string greeting
-│   ├── P2.py
-│   ├── P3.py
-│   ├── P4.py
+│   ├── P2.py                       f-string with \n — formatted letter
+│   ├── P3.py                       str.find() — locate substring
+│   ├── P4.py                       str.replace() — fix extra spaces
 │   └── P5.py                       Escape sequences in print
 ├── docs/
-│   └── Python_Handbook.pdf
+│   └── Python_Handbook.pdf      ← Reference handbook (tracked via Git LFS)
+├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -201,23 +202,24 @@ PythonPathway/
     <td width="50%" valign="top">
 
 **Core Concepts**
-- 📌 Variables & Data Types (`int`, `float`, `str`, `bool`, `NoneType`)
-- 📌 Operators (arithmetic, logical, bitwise, comparison, walrus `:=`)
-- 📌 Conditionals (`if`, `elif`, `else`, `match-case`)
-- 📌 Loops (`for`, `while`, comprehensions)
-- 📌 Functions (`def`, `lambda`, `*args`, `**kwargs`)
-- 📌 Recursion (base case, call stack, memoization)
+- ✅ Variables & Data Types (`int`, `float`, `str`, `bool`, `NoneType`)
+- ✅ Operators (arithmetic, assignment, comparison, logical)
+- ✅ type() function & typecasting (`int()`, `float()`, `str()`)
+- ✅ User input with `input()`
+- ✅ Modules — built-in (`math`, `os`), custom, external (`numpy`)
+- ✅ Comments — single-line & multi-line
 
-**Python Data Structures**
-- 📌 Lists — ordered, mutable, slicing
-- 📌 Tuples — immutable, packing/unpacking
-- 📌 Sets — unique elements, set operations
-- 📌 Dictionaries — key-value, nested, comprehensions
+**Strings**
+- ✅ String literals — single, double, triple quotes
+- ✅ Slicing — positive, negative, step
+- ✅ String methods — `len`, `find`, `replace`, `capitalize`, `count`, `endswith`
+- ✅ Escape sequences — `\n`, `\t`, `\\`, `\'`
+- ✅ f-strings & string formatting
 
     </td>
     <td width="50%" valign="top">
 
-**OOP Concepts**
+**OOP Concepts** *(Coming Soon)*
 - 🔴 Classes & Objects — blueprints and instances
 - 🔴 Inheritance & Polymorphism
 - 🔴 Encapsulation & Abstraction
@@ -225,10 +227,12 @@ PythonPathway/
 - 🔴 Decorators & Properties
 
 **Libraries & Ecosystem**
-- 📌 NumPy, Pandas, Matplotlib, Requests
-- 📌 `os`, `sys`, `datetime`, `json`, `re`
+- ✅ `os` — directory listing
+- ✅ `math` — built-in math functions
+- ✅ `numpy` — external array module (intro)
+- ✅ `pyttsx3` — text-to-speech (practice)
 
-**Advanced Concepts**
+**Advanced Concepts** *(Coming Soon)*
 - 🔴 Generators & Iterators
 - 🔴 Context Managers (`with`)
 - 🔴 Multithreading & Async basics
@@ -248,7 +252,7 @@ PythonPathway/
 <table>
   <tr>
     <td align="center" width="33%">
-      <b>✍🏻 Simple Syntax</b><br/><br/>
+      <b>✍️ Simple Syntax</b><br/><br/>
       Reads like English. Write less, do more. No semicolons, no braces — just clean logic.
     </td>
     <td align="center" width="33%">
@@ -442,13 +446,24 @@ python3 hello_world.py
   <tr>
     <td valign="top" width="50%">
 
-**📦 Basics**
-- [ ] Hello World & print()
-- [ ] Variables & Data Types
-- [ ] Operators & Expressions
-- [ ] Type Casting & input()
+**📦 Basics** ✅
+- [x] Hello World & print()
+- [x] Comments — single-line & multi-line
+- [x] Variables & Data Types
+- [x] Operators — arithmetic, assignment, comparison, logical
+- [x] type() function
+- [x] Type Casting — int(), float(), str()
+- [x] input() & user interaction
+- [x] Modules — built-in, custom, external
 
-**🔀 Control Flow**
+**📝 Strings** ✅
+- [x] String literals — single, double, triple quotes
+- [x] Slicing — positive, negative, step
+- [x] String methods — len, find, replace, capitalize, count
+- [x] Escape sequences — \n, \t, \\, \'
+- [x] f-strings & string formatting
+
+**🔀 Control Flow** *(Up Next)*
 - [ ] if / elif / else
 - [ ] match-case (Python 3.10+)
 - [ ] Ternary expressions
@@ -465,12 +480,6 @@ python3 hello_world.py
 - [ ] Lambda functions
 - [ ] Recursion
 - [ ] Decorators
-
-**📝 Strings**
-- [ ] Slicing & indexing
-- [ ] f-strings & formatting
-- [ ] String methods
-- [ ] Regular expressions (re)
 
 **📂 File Handling**
 - [ ] open / read / write
@@ -584,6 +593,7 @@ Contributions are welcome! If you want to add examples, fix bugs, or improve exp
 </div>
 
 ---
+
 <div align="center">
 
 ## 📄 License
