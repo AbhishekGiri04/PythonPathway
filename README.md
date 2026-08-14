@@ -159,6 +159,10 @@ PythonPathway/
 │   ├── 01_one.py                   Hello World & single/multi-line comments
 │   ├── 02_maths.py                 User-defined module (add, subtract, multiply)
 │   └── 03_main.py                  Importing built-in, custom & external modules
+├── Practice_01/                 ← Practice: Basics & Modules
+│   ├── P1.py                       Multi-line print — poem using triple quotes
+│   ├── P2.py                       Text-to-Speech using pyttsx3
+│   └── P3.py                       List directory contents using os module
 ├── Chapter_02/                  ← Variables, Operators & Data Types
 │   ├── 01_varibles.py              Variables & data types (int, float, str, bool, None)
 │   ├── 02_rules.py                 Naming rules & conventions
@@ -166,17 +170,36 @@ PythonPathway/
 │   ├── 04_type.py                  type() function — checking data types
 │   ├── 05_typecasting.py           int(), float(), str() type conversions
 │   └── 06_input.py                 input() & user interaction
+├── Practice_02/                 ← Practice: Variables & Operators
+│   ├── P1.py                       Basic arithmetic (addition)
+│   ├── P2.py                       Modulo operator
+│   ├── P3.py                       input() & type checking
+│   ├── P4.py                       Comparison operator (>)
+│   ├── P5.py                       Average of two numbers via input
+│   └── P6.py                       Input & exponentiation (**)
 ├── Chapter_03/                  ← Strings
 │   ├── 01_strings.py               String literals — single, double, triple quotes
 │   ├── 02_slicing.py               Positive, negative & step slicing
 │   ├── 03_functions.py             String methods — len, find, replace, capitalize, count
 │   └── 04_escape.py                Escape sequences — \n, \t, \\, \'
+├── Practice_03/                 ← Practice: Strings
+│   ├── P1.py                       input() + f-string greeting
+│   ├── P2.py                       f-string with \n — formatted letter
+│   ├── P3.py                       str.find() — locate substring
+│   ├── P4.py                       str.replace() — fix extra spaces
+│   └── P5.py                       Escape sequences in print
+├── Chapter_04/                  ← Data Structures I
+│   ├── 01_lists.py                 List indexing, slicing, methods (sort, append, pop)
+│   └── 02_tuples.py                Tuple creation, count(), index(), immutability
 ├── Practice_04/                 ← Practice: Data Structures I
 │   ├── P1.py                       Build a fruit list using loop & append
 │   ├── P2.py                       Input marks, sort & display list
 │   ├── P3.py                       list() & tuple() type conversion
 │   ├── P4.py                       sum() on a list
 │   └── P5.py                       tuple.count() — count zeros
+├── Chapter_05/                  ← Data Structures II
+│   ├── 01_dict.py                  Dictionary — creation, access, items/keys/update/get
+│   └── 02_sets.py                  Set — add, remove, pop, clear, union, intersection
 ├── Practice_05/                 ← Practice: Data Structures II
 │   ├── P1.py                       Hindi-English dictionary lookup with get()
 │   ├── P2.py                       Build a set from user input (deduplication)
@@ -184,6 +207,10 @@ PythonPathway/
 │   ├── P4.py                       Set deduplication — int vs float vs str
 │   ├── P5.py                       {} creates dict, not set — type trap
 │   └── P6.py                       Build name→language dict from user input
+├── Chapter_06/                  ← Control Flow
+│   ├── 01_if_else.py               Basic if/else condition
+│   ├── 02_Program.py               Age checker using input & if
+│   └── 03_elif.py                  if / elif / else with user input
 ├── Practice_06/                 ← Practice: Control Flow
 │   ├── P1.py                       Find greatest of 4 numbers using if/elif
 │   ├── P2.py                       Pass/Fail checker with percentage & per-subject logic
@@ -192,23 +219,11 @@ PythonPathway/
 │   ├── P5.py                       Name lookup in a list using `in`
 │   ├── P6.py                       Grade calculator with elif chain
 │   └── P7.py                       Keyword presence checker in a post
-├── Practice_01/                 ← Practice: Basics & Modules
-│   ├── P1.py                       Multi-line print — poem using triple quotes
-│   ├── P2.py                       Text-to-Speech using pyttsx3
-│   └── P3.py                       List directory contents using os module
-├── Practice_02/                 ← Practice: Variables & Operators
-│   ├── P1.py                       Basic arithmetic (addition)
-│   ├── P2.py                       Modulo operator
-│   ├── P3.py                       input() & type checking
-│   ├── P4.py                       Comparison operator (>)
-│   ├── P5.py                       Average of two numbers via input
-│   └── P6.py                       Input & exponentiation (**)
-├── Practice_03/                 ← Practice: Strings
-│   ├── P1.py                       input() + f-string greeting
-│   ├── P2.py                       f-string with \n — formatted letter
-│   ├── P3.py                       str.find() — locate substring
-│   ├── P4.py                       str.replace() — fix extra spaces
-│   └── P5.py                       Escape sequences in print
+├── Chapter_07/                  ← Loops
+│   ├── 01_while.py                 while loop — basic counter
+│   ├── 02_list.py                  for loop — list, range(), step, for-else
+│   ├── 03_break.py                 break statement in for loop
+│   └── Quiz.py                     Quiz — print 1 to 50 using while
 ├── docs/
 │   └── Python_Handbook.pdf      ← Reference handbook (tracked via Git LFS)
 ├── .gitattributes
