@@ -110,37 +110,52 @@
     <td align="center">✅ Completed</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/07-Functions-f59e0b?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/07-NumPy-10b981?style=flat-square"/></td>
+    <td><b>Arrays, attributes, initialization, indexing, slicing, math ops, broadcasting, stats</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/08-Pandas-10b981?style=flat-square"/></td>
+    <td><b>DataFrame, Series, loc/iloc, filter, CRUD ops, sort, datetime, CSV I/O</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/09-Matplotlib-10b981?style=flat-square"/></td>
+    <td><b>Line, bar, histogram, pie, scatter, subplots, customization, save charts</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/10-Seaborn-10b981?style=flat-square"/></td>
+    <td><b>scatter, line, bar, count, hist, kde, box, violin, heatmap, pairplot, jointplot, regplot</b></td>
+    <td align="center">✅ Completed</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/11-Functions-f59e0b?style=flat-square"/></td>
     <td><b>def, args/kwargs, lambda, scope, recursion, decorators</b></td>
     <td align="center">🔜 Up Next</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/08-File%20Handling-f59e0b?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/12-File%20Handling-f59e0b?style=flat-square"/></td>
     <td><b>open, read, write, with statement, CSV, JSON</b></td>
     <td align="center">🔜 Coming Soon</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/09-OOP-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/13-OOP-ef4444?style=flat-square"/></td>
     <td><b>Classes, objects, inheritance, polymorphism, dunder methods</b></td>
     <td align="center">🔴 Critical</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/10-Modules%20%26%20Packages-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/14-Modules%20%26%20Packages-ef4444?style=flat-square"/></td>
     <td><b>import, pip, virtual environments, custom modules</b></td>
     <td align="center">🔴 Ecosystem</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/11-Exception%20Handling-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/15-Exception%20Handling-ef4444?style=flat-square"/></td>
     <td><b>try/except/finally, custom exceptions, error types</b></td>
     <td align="center">🔴 Robustness</td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/12-Libraries-ef4444?style=flat-square"/></td>
-    <td><b>NumPy, Pandas, Matplotlib, Requests, OS, datetime</b></td>
-    <td align="center">🔴 Power Tools</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/13-Web%20%2F%20AI%20%2F%20Automation-ef4444?style=flat-square"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/16-Web%20%2F%20AI%20%2F%20Automation-ef4444?style=flat-square"/></td>
     <td><b>Flask/Django basics, Scikit-learn, Selenium, APIs</b></td>
     <td align="center">🔴 Mastery</td>
   </tr>
@@ -224,6 +239,14 @@ PythonPathway/
 │   ├── 02_list.py                  for loop — list, range(), step, for-else
 │   ├── 03_break.py                 break statement in for loop
 │   └── Quiz.py                     Quiz — print 1 to 50 using while
+├── Numpy/                       ← NumPy — Numerical Computing
+│   └── numpy.ipynb                 Arrays, attributes, init methods, indexing, slicing, math, stats, broadcasting
+├── Pandas/                      ← Pandas — Data Analysis
+│   └── pandas.ipynb                DataFrame, loc/iloc, filter, CRUD, sort, datetime, CSV I/O
+├── Matplotlib/                  ← Matplotlib — Data Visualization
+│   └── matplotlib.ipynb            Line, bar, histogram, pie, scatter, subplots, save charts
+├── Seaborn/                     ← Seaborn — Statistical Visualization
+│   └── seaborn.ipynb               scatter, line, bar, count, hist, kde, box, violin, heatmap, pairplot, regplot
 ├── docs/
 │   └── Python_Handbook.pdf      ← Reference handbook (tracked via Git LFS)
 ├── .gitattributes
@@ -288,8 +311,11 @@ PythonPathway/
 **Libraries & Ecosystem**
 - ✅ `os` — directory listing
 - ✅ `math` — built-in math functions
-- ✅ `numpy` — external array module (intro)
 - ✅ `pyttsx3` — text-to-speech (practice)
+- ✅ `numpy` — arrays, attributes, init, indexing, slicing, math ops, broadcasting, stats, save/load
+- ✅ `pandas` — DataFrame, loc/iloc, filter, CRUD, sort, datetime, CSV I/O
+- ✅ `matplotlib` — line, bar, histogram, pie, scatter, subplots, customization, save charts
+- ✅ `seaborn` — scatter, line, bar, count, hist, kde, box, violin, heatmap, pairplot, jointplot, regplot
 
 **Advanced Concepts** *(Coming Soon)*
 - 🔴 Generators & Iterators
@@ -545,6 +571,49 @@ python3 hello_world.py
 - [ ] continue, pass
 - [ ] List / Dict / Set comprehensions
 
+**📊 NumPy** ✅
+- [x] Array creation from lists
+- [x] Array attributes — shape, size, dtype, ndim
+- [x] Initialization — zeros, ones, full, eye, arange, linspace, random
+- [x] Indexing & slicing — 1D, 2D, boolean filtering
+- [x] Reshape, flatten, ravel
+- [x] Stack, split — vstack, hstack, hsplit, vsplit
+- [x] Math ops — add, subtract, multiply, divide, sqrt, sin, cos
+- [x] Statistical functions — sum, mean, median, std, var, min, max
+- [x] Broadcasting, nan/inf handling, save/load
+
+**🐼 Pandas** ✅
+- [x] DataFrame creation from dict
+- [x] head(), tail(), shape, columns, info(), describe()
+- [x] loc & iloc — label & index based selection
+- [x] Filtering — boolean, where()
+- [x] Add, update, delete rows & columns
+- [x] sort_values(), rename()
+- [x] datetime conversion with pd.to_datetime()
+- [x] CSV export/import — to_csv(), read_csv()
+
+**📈 Matplotlib** ✅
+- [x] Line chart — plot(), grid(), show()
+- [x] Customization — color, marker, linestyle, title, xlabel, ylabel
+- [x] Multiple lines & legends
+- [x] Bar chart (vertical & horizontal)
+- [x] Histogram & Violin plot
+- [x] Pie chart with autopct
+- [x] Scatter plot
+- [x] Subplots — subplot(), figure()
+- [x] Matplotlib with Pandas DataFrame
+- [x] Save chart — savefig()
+
+**🌊 Seaborn** ✅
+- [x] lineplot, scatterplot
+- [x] barplot, countplot
+- [x] histplot, kdeplot
+- [x] boxplot, violinplot, stripplot, swarmplot
+- [x] heatmap with annot & fmt
+- [x] pairplot, jointplot, regplot
+- [x] hue, size, style parameters
+- [x] Real dataset — tips (sns.load_dataset)
+
 **🧩 Functions**
 - [ ] def & return
 - [ ] *args & **kwargs
@@ -583,9 +652,10 @@ python3 hello_world.py
 - [ ] Async / await basics
 
 **📦 Libraries**
-- [ ] NumPy — arrays & operations
-- [ ] Pandas — DataFrames & analysis
-- [ ] Matplotlib — plotting & charts
+- [x] NumPy — arrays & operations
+- [x] Pandas — DataFrames & analysis
+- [x] Matplotlib — plotting & charts
+- [x] Seaborn — statistical visualization
 - [ ] Requests — HTTP & APIs
 
 **🚀 Projects**

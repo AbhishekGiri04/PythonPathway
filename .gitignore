@@ -33,7 +33,6 @@ htmlcov/
 
 # ─── Jupyter Notebooks ────────────────────────────────────
 .ipynb_checkpoints/
-*.ipynb
 
 # ─── Type Checking ────────────────────────────────────────
 .mypy_cache/
